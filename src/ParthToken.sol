@@ -37,7 +37,7 @@ contract ParthToken {
         s_name = "ParthToken";
         s_symbol = "PMT";
         i_decimal = 18;
-        i_totalSupply = 100000000;
+        i_totalSupply = 1000000;
         i_owner = msg.sender;
         s_addressToBalance[msg.sender] = i_totalSupply;
     }
