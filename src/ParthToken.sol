@@ -76,6 +76,7 @@ contract ParthToken {
         return s_approvalAmount[owner][spender];
     }
 
+    // works on the amount which is approved by the owner
     function transferFrom(address owner, address spender, uint amount) public {
         require(
             s_approvalAmount[owner][spender] >= amount,
