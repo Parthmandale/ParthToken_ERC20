@@ -1,3 +1,0 @@
-[submodule "ParthToken_ERC20/lib/forge-std"]
-	path = ParthToken_ERC20/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
