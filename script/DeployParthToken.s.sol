@@ -5,7 +5,7 @@ import {Script} from "forge-std/Script.sol";
 import {ParthToken} from "../src/ParthToken.sol";
 
 contract DeployOurToken is Script {
-    ParthToken parthToken;
+    ParthToken public parthToken;
 
     function run() external returns (ParthToken) {
         vm.startBroadcast();
